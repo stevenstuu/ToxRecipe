@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch Class="ToxRecipe.Patch_ToxRecipe">
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName = "Shell_Toxic"]/costList</xpath>
+	    <value>
+                <Wastepack>1</Wastepack>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName = "Apparel_PackTox"]/costList</xpath>
+	    <value>
+                <Wastepack>1</Wastepack>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName = "Gun_ToxbombLauncher"]/costList</xpath>
+	    <value>
+                <Wastepack>1</Wastepack>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName = "Weapon_GrenadeTox"]/costList</xpath>
+	    <value>
+                <Wastepack>1</Wastepack>
+	    </value>
+	</Operation>
+</Patch>
